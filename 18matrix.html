@@ -1,0 +1,28 @@
+<div class=first><span></span><span></span><span></span><span></span>
+</div>
+<div class=second><span></span><span></span><span></span><span></span>
+</div>
+<div class=first><span></span><span></span><span></span><span></span>
+</div>
+<style>
+  body{
+    background:#5C434C;
+  }
+  span{
+    display:inline-block;
+    width:80px;
+    height:80px;
+    background:#F5D6B4;
+    border-radius:100px 0 0 0;
+    margin:2 18 18 2;
+  }
+  .first span:nth-child(odd){
+    background:#F09462;
+  }
+  .second span:nth-child(even){
+    background:#F09462;
+  }
+  span:nth-child(4n){
+    margin-right:1;
+  }
+ </style>
