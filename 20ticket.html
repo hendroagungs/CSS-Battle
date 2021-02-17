@@ -1,0 +1,60 @@
+<div class=box>
+  <div class="circle c1"></div>
+  <div class="circle c2"></div>
+  <div class="circle c3"></div>
+  <div class="circle c4"></div>
+  <div class="c-sm1"></div>
+  <div class="c-sm2"></div>
+</div>
+<style>
+  body{
+    background:#62306D;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+  }
+  .box {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right,#F7EC7D 70%,#E38F66 50%);
+    position:relative;
+  }
+  .circle{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#62306D;
+    position:absolute;
+  }
+  .c1{
+    top:-20;
+    right:-20;
+  }
+  .c2{
+    top:-20;
+    left:-20;
+  }
+  .c3{
+    bottom:-20;
+    left:-20;
+  }
+  .c4{
+    bottom:-20;
+    right:-20;
+  }
+  .c-sm1, .c-sm2{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+	background:#62306D;
+    position:absolute;
+  } 
+  .c-sm1{
+    left:130;
+    top:-10;
+  }
+  .c-sm2{
+    left:130;
+    bottom:-10;
+  }
+</style>
