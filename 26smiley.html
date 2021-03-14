@@ -1,0 +1,47 @@
+<div class="half-circle1">
+<div class="trim"></div></div>
+<div class="space"></div>
+<div class="half-circle2">
+<div class="trim"></div></div>
+<div class="half-circle3">
+<div class="trim3"></div></div>
+<style>
+  html {
+    background: #6592CF;
+  }
+  body{
+    justify-content:center;
+    display:flex;
+  }
+  .half-circle1,.half-circle2, .half-circle3{
+    width:80px;
+    height:80px;
+    border-radius:100px 100px 0 0;
+    background:#6592CF;
+    box-shadow:0px 0px 0 20px #060F55;
+	top:52;
+    left:-20;
+    position:relative;
+  }
+  
+  .half-circle2{
+    left:100;
+  }
+  .half-circle3{
+    top:152;
+    border-radius:0px 0px 100px 100px;
+    left:-80;
+  }
+  .trim,.trim3{
+    width:120px;
+    height:80px;
+    background:#6592CF;
+    position:absolute;
+    bottom:-40;
+    left:-20;
+  }
+  .trim3{
+    top:-40;
+  }
+  
+</style>
